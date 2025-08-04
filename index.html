@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletter</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      color: #333333;
+    }
+    .section-title {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .footer {
+      background-color: #eeeeee;
+      color: #666666;
+      text-align: center;
+      font-size: 12px;
+      padding: 15px;
+    }
+    a.button {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    @media screen and (max-width: 600px) {
+      .email-container {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>Monthly Newsletter</h1>
+    </div>
+    <div class="content">
+      <p>Hello Subscriber,</p>
+      <p>Welcome to our August edition! Here's what's new:</p>
+
+      <div class="section">
+        <div class="section-title">📰 Featured Article</div>
+        <p>Explore the latest trends in the industry and how you can adapt.</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+
+      <div class="section">
+        <div class="section-title">📅 Upcoming Events</div>
+        <ul>
+          <li><strong>Webinar:</strong> Aug 12 - "Marketing in 2025"</li>
+          <li><strong>Workshop:</strong> Aug 22 - "Remote Team Management"</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <div class="section-title">💡 Tips & Tricks</div>
+        <p>Boost productivity with these 5 quick wins you can implement today.</p>
+      </div>
+
+      <p>Thanks for reading,<br />The Team</p>
+    </div>
+    <div class="footer">
+      <p>You are receiving this email because you subscribed to our newsletter.</p>
+      <p><a href="#">Unsubscribe</a> | <a href="#">Update Preferences</a></p>
+    </div>
+  </div>
+</body>
+</html>
