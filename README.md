@@ -6,4 +6,3 @@ clone it to vscode : https://github.com/Keys0123/newsletter.git
 3. git commit -m "Add index.html"
 4. git push origin main
 5. And all set babe <3
-brnf
